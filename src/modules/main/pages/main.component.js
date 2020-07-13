@@ -1,9 +1,16 @@
 import React from 'react';
 
+// components
+import Menu from '../../../shared/menu/menu.component';
+
+// styles
+import { Container } from './main.styles';
+
 export default function Main() {
   return (
-    <div>
+    <Container>
+      <Menu />
       <h1>this page is main</h1>
-    </div>
+    </Container>
   );
 }
