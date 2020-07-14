@@ -3,6 +3,7 @@ import React from 'react';
 // components
 import Menu from '../../../shared/menu/menu.component';
 import Item from '../../../shared/item/item.component';
+import ListContainer from '../../../shared/list-items/list-items.component';
 
 // styles
 import {
@@ -12,11 +13,9 @@ import {
   TitleContainer,
   CarouselContainer,
   MainContainer,
-  ItemsContainer,
   ListItemContainer,
   TitleItemsContainer,
-  ButtonView,
-  Title,
+  List,
 } from './main.styles';
 import { MdSearch } from 'react-icons/md';
 
@@ -39,15 +38,8 @@ export default function Main() {
           </SearchContainer>
         </TitleContainer>
         <CarouselContainer></CarouselContainer>
-        <ItemsContainer>
-          <TitleItemsContainer>
-            <Title>
-              <label>Ubsoft Forward Sale</label>
-            </Title>
-            <ButtonView>
-              <label>View more</label>
-            </ButtonView>
-          </TitleItemsContainer>
+        <List>
+          <ListContainer title="Ubsoft" buttonTitle="View more" />
           <ListItemContainer>
             <Item
               urlImage={link}
@@ -90,7 +82,7 @@ export default function Main() {
               currentPrice="200,00"
             />
           </ListItemContainer>
-        </ItemsContainer>
+        </List>
       </MainContainer>
     </Container>
   );
