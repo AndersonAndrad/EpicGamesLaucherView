@@ -2,6 +2,7 @@ import React from 'react';
 
 // components
 import Menu from '../../../shared/menu/menu.component';
+import Item from '../../../shared/item/item.component';
 
 // styles
 import {
@@ -12,14 +13,6 @@ import {
   CarouselContainer,
   MainContainer,
   ItemsContainer,
-  Item,
-  Image,
-  Name,
-  Bussines,
-  Price,
-  Discount,
-  OldPrice,
-  CurrentPrice,
   ListItemContainer,
   TitleItemsContainer,
   ButtonView,
@@ -28,6 +21,9 @@ import {
 import { MdSearch } from 'react-icons/md';
 
 export default function Main() {
+  const link =
+    'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200';
+
   return (
     <Container>
       <Menu />
@@ -53,106 +49,46 @@ export default function Main() {
             </ButtonView>
           </TitleItemsContainer>
           <ListItemContainer>
-            <Item>
-              <Image></Image>
-              <Name>
-                <label>Assassins's Creed Odyssey</label>
-              </Name>
-              <Bussines>
-                <label>Ubsoft</label>
-              </Bussines>
-              <Price>
-                <Discount>
-                  <label>-%60</label>
-                </Discount>
-                <OldPrice>
-                  <label>R$150,00</label>
-                </OldPrice>
-                <CurrentPrice>
-                  <label>R$90,00</label>
-                </CurrentPrice>
-              </Price>
-            </Item>
-            <Item>
-              <Image></Image>
-              <Name>
-                <label>Assassins's Creed Odyssey</label>
-              </Name>
-              <Bussines>
-                <label>Ubsoft</label>
-              </Bussines>
-              <Price>
-                <Discount>
-                  <label>-%60</label>
-                </Discount>
-                <OldPrice>
-                  <label>R$150,00</label>
-                </OldPrice>
-                <CurrentPrice>
-                  <label>R$90,00</label>
-                </CurrentPrice>
-              </Price>
-            </Item>
-            <Item>
-              <Image></Image>
-              <Name>
-                <label>Assassins's Creed Odyssey</label>
-              </Name>
-              <Bussines>
-                <label>Ubsoft</label>
-              </Bussines>
-              <Price>
-                <Discount>
-                  <label>-%60</label>
-                </Discount>
-                <OldPrice>
-                  <label>R$150,00</label>
-                </OldPrice>
-                <CurrentPrice>
-                  <label>R$90,00</label>
-                </CurrentPrice>
-              </Price>
-            </Item>
-            <Item>
-              <Image></Image>
-              <Name>
-                <label>Assassins's Creed Odyssey</label>
-              </Name>
-              <Bussines>
-                <label>Ubsoft</label>
-              </Bussines>
-              <Price>
-                <Discount>
-                  <label>-%60</label>
-                </Discount>
-                <OldPrice>
-                  <label>R$150,00</label>
-                </OldPrice>
-                <CurrentPrice>
-                  <label>R$90,00</label>
-                </CurrentPrice>
-              </Price>
-            </Item>
-            <Item>
-              <Image></Image>
-              <Name>
-                <label>Assassins's Creed Odyssey</label>
-              </Name>
-              <Bussines>
-                <label>Ubsoft</label>
-              </Bussines>
-              <Price>
-                <Discount>
-                  <label>-%60</label>
-                </Discount>
-                <OldPrice>
-                  <label>R$150,00</label>
-                </OldPrice>
-                <CurrentPrice>
-                  <label>R$90,00</label>
-                </CurrentPrice>
-              </Price>
-            </Item>
+            <Item
+              urlImage={link}
+              name="Assassin's Creed"
+              bussines="Ubsoft"
+              discount="65"
+              oldPrice="195,00"
+              currentPrice="200,00"
+            />
+            <Item
+              urlImage={link}
+              name="Assassin's Creed"
+              bussines="Ubsoft"
+              discount="65"
+              oldPrice="195,00"
+              currentPrice="200,00"
+            />
+            <Item
+              urlImage={link}
+              name="Assassin's Creed"
+              bussines="Ubsoft"
+              discount="65"
+              oldPrice="195,00"
+              currentPrice="200,00"
+            />
+            <Item
+              urlImage={link}
+              name="Assassin's Creed"
+              bussines="Ubsoft"
+              discount="65"
+              oldPrice="195,00"
+              currentPrice="200,00"
+            />
+            <Item
+              urlImage={link}
+              name="Assassin's Creed"
+              bussines="Ubsoft"
+              discount="65"
+              oldPrice="195,00"
+              currentPrice="200,00"
+            />
           </ListItemContainer>
         </ItemsContainer>
       </MainContainer>
