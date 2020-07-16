@@ -60,3 +60,27 @@ export const CurrentPrice = styled.div`
     font-weight: bold;
   }
 `;
+
+// is free
+export const StatusFree = styled.div`
+  display: flex;
+  width: 100%;
+`;
+
+export const FreeText = styled.label`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: ${(props) => (props.status ? '#0084ff' : '#000')};
+  font-size: 18px;
+`;
+
+export const NameFree = styled.div`
+  font-size: 18px;
+`;
+
+export const InfoGameContainer = styled.div`
+  /* background: #f14; */
+`;
+
+export const InitialDate = styled.div``;

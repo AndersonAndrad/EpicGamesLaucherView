@@ -39,12 +39,17 @@ export default function CardGames(props) {
           props.games.map((game) => (
             <li key={game.id}>
               <Item
+                free={game.free}
                 urlImage={game.image}
                 name={game.name}
                 bussines={game.bussines}
                 discount={game.discount}
                 oldPrice={game.oldPrice}
                 currentPrice={game.currentPrice}
+                freeNow={game.freeNow}
+                initialDate={game.initialDate}
+                finalDate={game.finalDate}
+                finalHours={game.finalHours}
               />
             </li>
           ))
