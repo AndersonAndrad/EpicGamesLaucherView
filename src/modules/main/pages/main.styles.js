@@ -31,7 +31,7 @@ export const SearchContainer = styled.div`
   display: flex;
   align-items: center;
 
-  background: #919191;
+  background: #2a2a2a;
   width: 200px;
   height: 40px;
   border-radius: 5px;

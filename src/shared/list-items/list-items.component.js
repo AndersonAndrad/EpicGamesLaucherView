@@ -1,12 +1,10 @@
 import React from 'react';
 
+// components
+import Button from '../../shared/simple-button/simple-button.component';
+
 // styles
-import {
-  Container,
-  TitleItemsContainer,
-  Title,
-  ButtonView,
-} from './list-items.styles';
+import { Container, TitleItemsContainer, Title } from './list-items.styles';
 
 export default function ListItems(props) {
   return (
@@ -15,9 +13,7 @@ export default function ListItems(props) {
         <Title>
           <label>{props.title}</label>
         </Title>
-        <ButtonView>
-          <label>{props.buttonTitle}</label>
-        </ButtonView>
+        <Button title="View More" />
       </TitleItemsContainer>
     </Container>
   );
