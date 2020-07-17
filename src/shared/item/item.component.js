@@ -60,11 +60,13 @@ export default function Item(props) {
           <label>{props.bussines}</label>
         </Bussines>
         <PriceGameContainer>
-          <Discount>
-            <label>-{props.discount}%</label>
-          </Discount>
+          {props.discount ? (
+            <Discount>
+              <label>-{props.discount}%</label>
+            </Discount>
+          ) : null}
           <OldPrice>
-            <label>R${props.oldPrice}</label>
+            {props.oldPrice ? <label>R${props.oldPrice}</label> : null}
           </OldPrice>
           <CurrentPrice>
             <label>R${props.currentPrice}</label>

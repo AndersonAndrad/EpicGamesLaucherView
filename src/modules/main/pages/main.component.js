@@ -42,7 +42,7 @@ export default function Main() {
           games={[
             {
               id: 1,
-              free: true,
+              free: false,
               freeNow: true,
               finalDate: '',
               initialDate: 'Jul 23 at ',
@@ -51,13 +51,13 @@ export default function Main() {
                 'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
               name: "Assassin's Creed",
               bussines: 'Ubsoft',
-              discount: '65',
-              oldPrice: '195,00',
+              discount: '50',
+              oldPrice: '100,00',
               currentPrice: '200,00',
             },
             {
               id: 1,
-              free: true,
+              free: false,
               freeNow: false,
               finalDate: 'Jul 30',
               initialDate: 'Jul 23 - ',
@@ -79,6 +79,11 @@ export default function Main() {
           games={[
             {
               id: 1,
+              free: true,
+              freeNow: true,
+              finalDate: '',
+              initialDate: 'Jul 23 - ',
+              finalHours: '00:00hrs',
               image:
                 'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
               name: "Assassin's Creed",
@@ -89,6 +94,11 @@ export default function Main() {
             },
             {
               id: 2,
+              free: true,
+              freeNow: true,
+              finalDate: '',
+              initialDate: 'Jul 23 - ',
+              finalHours: '00:00hrs',
               image:
                 'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
               name: "Assassin's Creed",
@@ -99,6 +109,11 @@ export default function Main() {
             },
             {
               id: 3,
+              free: true,
+              freeNow: false,
+              finalDate: 'Jul 30',
+              initialDate: 'Jul 23 - ',
+              finalHours: '',
               image:
                 'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
               name: "Assassin's Creed",
@@ -109,6 +124,11 @@ export default function Main() {
             },
             {
               id: 4,
+              free: true,
+              freeNow: false,
+              finalDate: 'Jul 30',
+              initialDate: 'Jul 23 - ',
+              finalHours: '',
               image:
                 'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
               name: "Assassin's Creed",
@@ -119,12 +139,99 @@ export default function Main() {
             },
             {
               id: 5,
+              free: true,
+              freeNow: false,
+              finalDate: 'Jul 30',
+              initialDate: 'Jul 23 - ',
+              finalHours: '',
               image:
                 'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
               name: "Assassin's Creed",
               bussines: 'Ubsoft',
               discount: '65',
               oldPrice: '195,00',
+              currentPrice: '200,00',
+            },
+          ]}
+        />
+        <FreeGames
+          title="New Releases"
+          titleButton=""
+          background=""
+          games={[
+            {
+              id: 1,
+              free: false,
+              freeNow: true,
+              finalDate: '',
+              initialDate: '',
+              finalHours: '',
+              image:
+                'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
+              name: "Assassin's Creed",
+              bussines: 'Ubsoft',
+              discount: '40',
+              oldPrice: '39,90',
+              currentPrice: '239,00',
+            },
+            {
+              id: 2,
+              free: false,
+              freeNow: true,
+              finalDate: '',
+              initialDate: 'Jul 23 - ',
+              finalHours: '00:00hrs',
+              image:
+                'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
+              name: "Assassin's Creed",
+              bussines: 'Ubsoft',
+              discount: '',
+              oldPrice: '',
+              currentPrice: '200,00',
+            },
+            {
+              id: 3,
+              free: false,
+              freeNow: false,
+              finalDate: 'Jul 30',
+              initialDate: 'Jul 23 - ',
+              finalHours: '',
+              image:
+                'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
+              name: "Assassin's Creed",
+              bussines: 'Ubsoft',
+              discount: '',
+              oldPrice: '',
+              currentPrice: '200,00',
+            },
+            {
+              id: 4,
+              free: false,
+              freeNow: false,
+              finalDate: 'Jul 30',
+              initialDate: 'Jul 23 - ',
+              finalHours: '',
+              image:
+                'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
+              name: "Assassin's Creed",
+              bussines: 'Ubsoft',
+              discount: '',
+              oldPrice: '',
+              currentPrice: '200,00',
+            },
+            {
+              id: 5,
+              free: false,
+              freeNow: false,
+              finalDate: 'Jul 30',
+              initialDate: 'Jul 23 - ',
+              finalHours: '',
+              image:
+                'https://store-images.s-microsoft.com/image/apps.51903.71972716530068101.ccdcadf1-1d2a-49f2-9c37-0b0a27e5a53c.08e06d2d-1104-4c80-b879-91facf8348d5?mode=scale&q=90&h=300&w=200',
+              name: "Assassin's Creed",
+              bussines: 'Ubsoft',
+              discount: '',
+              oldPrice: '',
               currentPrice: '200,00',
             },
           ]}
