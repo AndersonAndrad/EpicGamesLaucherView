@@ -237,7 +237,7 @@ export default function Main() {
           infoTitle="Ghost Recon BreakPoint"
           descriptionTitle="Squad up for the ultimate military co-op experience and save up to 67% off! Trial ends July 20."
           img="https://i0.wp.com/www.demonvideogame.com/wp-content/uploads/2019/10/tom-clancys-ghost-recon-breakpoint-4.jpg?resize=768%2C432&ssl=1"
-          background="#f14"
+          background="#64a646"
         />
       </MainContainer>
     </Container>
