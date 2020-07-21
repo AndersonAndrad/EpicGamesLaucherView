@@ -20,12 +20,9 @@ work with property values, create components, work with multiple components
 
 ## Presenting the system screens
 
-image1
-
-image2 
-
-image3
-
+<img src="https://raw.githubusercontent.com/AndersonAndrad/EpicGamesLaucherView/master/images/freegames.png">
+<img src="https://raw.githubusercontent.com/AndersonAndrad/EpicGamesLaucherView/master/images/games1.png">
+<img src="https://raw.githubusercontent.com/AndersonAndrad/EpicGamesLaucherView/master/images/treeweek.png">
 ## :memo:Proposed screens to be created
 
 - [x] Store
