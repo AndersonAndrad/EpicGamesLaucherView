@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-16.x-blue"></a>
+</p>
 
-## Available Scripts
+:computer:[Frontend](https://github.com/AndersonAndrad/EpicGamesLaucherView)
 
-In the project directory, you can run:
+# Epic games interface
 
-### `yarn start`
+## :bulb: ​Description
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+creating the epic games launcher interface for the web format, the idea of the project is to develop all the pages of the launcher, but not everything will be done at the same time because of what was proposed to learn and what is being done
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :memo:what was proposed to learn from this project
 
-### `yarn test`
+was proposed to learn ... passing values through properties, creating components for the entire system, working with multiple components, stylization of information, organizing information by screens
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :memo:what has been learned so far in the project
 
-### `yarn build`
+work with property values, create components, work with multiple components
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Presenting the system screens
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+image1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+image2 
 
-### `yarn eject`
+image3
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :memo:Proposed screens to be created
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Store
+- [ ] Home
+- [ ] Library
+- [ ] Friends
+- [ ] Downloads
+- [ ] Settings
+- [ ] User Perfil
+- [ ] Game Page
+- [ ] Friend list
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🚀 How to install the project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Clone the project in your machine.
 
-## Learn More
+```
+https://github.com/AndersonAndrad/EpicGamesLaucherView
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The run the following command 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+yarn install
+```
 
-### Code Splitting
+## 👤 Authors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+| Anderson Andrade                                             |
+| ------------------------------------------------------------ |
+| <img src="https://avatars0.githubusercontent.com/u/31743641?s=400&u=b6d9e1c428279846440325b0fae90f4b9c4d1d98&v=4" width="110"> |
+| <a href="https://github.com/AndersonAndrad">Github</a>       |
+| <a href="https://www.linkedin.com/in/AndersonAndrad/">Linkedin</a> |
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/andersonandrad/EpicGamesLaucherView/issues).
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Give a ⭐️ if this project helped you!
