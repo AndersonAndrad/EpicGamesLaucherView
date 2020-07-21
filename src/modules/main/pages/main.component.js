@@ -2,9 +2,8 @@ import React from 'react';
 
 // components
 import Menu from '../../../shared/menu/menu.component';
-import Item from '../../../shared/item/item.component';
-import ListContainer from '../../../shared/list-items/list-items.component';
 import FreeGames from '../../../shared/free-games/free-games.component';
+import GameCard from '../../../shared/game-card/game-card.component';
 
 // styles
 import {
@@ -14,9 +13,6 @@ import {
   TitleContainer,
   CarouselContainer,
   MainContainer,
-  ListItemContainer,
-  TitleItemsContainer,
-  List,
 } from './main.styles';
 import { MdSearch } from 'react-icons/md';
 
@@ -235,6 +231,13 @@ export default function Main() {
               currentPrice: '200,00',
             },
           ]}
+        />
+        <GameCard
+          title="Trial Week"
+          infoTitle="Ghost Recon BreakPoint"
+          descriptionTitle="Squad up for the ultimate military co-op experience and save up to 67% off! Trial ends July 20."
+          img="https://i0.wp.com/www.demonvideogame.com/wp-content/uploads/2019/10/tom-clancys-ghost-recon-breakpoint-4.jpg?resize=768%2C432&ssl=1"
+          background="#f14"
         />
       </MainContainer>
     </Container>
